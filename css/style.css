@@ -1,0 +1,1129 @@
+html {
+    position: relative;
+}
+
+body {
+
+    margin: 0;
+    background-color: #fff;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.open-button {
+    background-color: transparent;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+
+
+}
+
+.open-button img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: red;
+}
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+/* Navbar */
+#container-navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: transparent;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    z-index: 3;
+}
+
+.topnav ul .logonav img {
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.topnav ul li {
+    margin-top: -30px;
+    float: right;
+    margin-right: 210px;
+    list-style: none;
+}
+
+.topnav ul li a {
+    text-transform: uppercase;
+    color: rgba(4, 27, 80, 0.274);
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav #active {
+    background-color: #041B50;
+    color: white;
+    border-top-left-radius: 5000px;
+    border-bottom-right-radius: 5000px;
+}
+
+.topnav #id{
+    cursor: pointer;
+}
+/* Login */
+.login a button {
+    background-color: #041B50;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    float: right;
+    margin-right: -170px;
+    margin-top: -35px;
+    border-radius: 50px;
+
+}
+
+.login a button:hover {
+    background-color: rgb(6, 40, 119);
+}
+
+
+/* Content */
+.container {
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+.container-header {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    padding-top: 15px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+    isolation: isolate;
+    background-image: url(/assets/image/banner/Mask\ Group\ 1.png);
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 80px;
+    color: #dbd9d9;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+    font-size: 50px;
+    font-family: Playfair Display, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header p {
+    text-align: center;
+    color: #dbd9d9;
+    font-size: 25px;
+    font-family: Stark, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.btn-get-started a button {
+    text-align: center;
+    border: none;
+    width: 170px;
+    height: 45px;
+    background: #ff8d35;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 555px;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.btn-get-started a button:hover {
+    background: #ff9e53;
+}
+
+/* Content Statistic */
+
+#container-statistik {
+    width: 720px;
+    height: 100px;
+    isolation: isolate;
+
+    margin: -40px auto;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.colom-statistik {
+    width: 84px;
+    height: 68px;
+    float: left;
+    background: transparent;
+    margin: 15px 45px 15px;
+
+    /* border: 1px solid black; */
+
+}
+
+.colom-statistik .number {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+    color: #041b50;
+
+}
+
+.colom-statistik .title {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #041b50;
+
+}
+
+
+
+/* Jumbotron */
+#container-jumbotron {
+    width: 100%;
+    height: 553px;
+    background: #041b50;
+    isolation: isolate;
+    margin-top: -110px;
+    border-bottom-right-radius: 100px;
+}
+
+.title h1 {
+    text-align: center;
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    font-family: Playfair Display, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title p {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: Stark, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Website Popular */
+#container-web-popular {
+    margin: -150px auto 100px;
+    width: 90%;
+    height: 380px;
+
+}
+
+.card-popular {
+    width: 260px;
+    float: left;
+    margin-left: 15px;
+    height: 380px;
+    text-align: center;
+    border-radius: 2px;
+    background: #dbd9d9;
+    border-radius: 5px;
+
+}
+
+/* paralax */
+#container-web-popular .card-popular {
+    opacity: 0;
+    transition: .5s;
+    transform: translate(-500px, -5px);
+}
+
+#container-web-popular .card-popular.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.card-popular img {
+    margin-top: -350px;
+}
+
+.card-popular .kategori {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 5px;
+
+}
+
+.card-popular .jenis {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 30px;
+    padding-top: 5px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    letter-spacing: 8px;
+    color: #fff;
+
+}
+
+
+.btn-get-started-webpopular a button {
+    text-align: center;
+    border: none;
+    width: 170px;
+    height: 45px;
+    background: #ff8d35;
+    border-radius: 5px;
+    margin-top: 200px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 20px;
+
+}
+
+.btn-get-started-webpopular a button:hover {
+    background: #ff9e53;
+}
+
+#container-partner {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto 0;
+    margin-bottom: 100px;
+
+}
+
+.title-network h1 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: -10px;
+    text-align: left;
+    color: #000;
+
+}
+
+.title-network p {
+    font-family: Asistant, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    text-align: left;
+    margin-top: -20px;
+    color: #000;
+
+}
+
+.logo-partner {
+    position: relative;
+    top: -85px;
+    /* left: 535px; */
+    float: right;
+
+}
+
+.logo-partner img {
+    margin-right: 20px;
+    isolation: isolate;
+
+}
+
+/* Servicces */
+#container-servicces {
+    margin: 0 auto 200px;
+    width: 100%;
+    height: 500px;
+    z-index: 5;
+    background: rgba(226, 225, 225, 0.342);
+    border-bottom-right-radius: 5000px;
+    border-top-left-radius: 5000px;
+
+
+}
+
+
+
+.title-servicces h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    font-family: Playfair Display, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title-servicces p {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: Stark, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.row-servicces {
+    margin: auto;
+    width: 90%;
+    height: 380px;
+    margin-top: 50px;
+
+
+}
+
+.card-servicces {
+    width: 260px;
+    float: left;
+    margin-left: 15px;
+    height: 380px;
+    text-align: center;
+    border-radius: 2px;
+    border-radius: 5px;
+    border: 2px solid #E6E6E6;
+
+}
+
+.card-servicces:hover {
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-servicces img {
+    margin-top: 50px;
+}
+
+.card-servicces h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* portfolio */
+#container-portfolio {
+    width: 90%;
+    height: 950px;
+    margin: auto;
+
+}
+
+.portfoio {
+    margin-left: 40px;
+}
+
+/* Paralax */
+#container-portfolio .card-portfolio {
+    opacity: 0;
+    transition: .3s;
+    position: relative;
+    transform: translate(0, -50px);
+}
+
+#container-portfolio .card-portfolio.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+
+
+
+.title-portfolio h1 {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    font-family: Playfair Display, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title-portfolio p {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: Stark, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card-portfolio {
+    margin-top: 20px;
+    width: 350px;
+    height: 290px;
+    margin-right: 15px;
+    margin-left: 0;
+    float: left;
+    background: #fff;
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.20));
+
+}
+
+.card-portfolio img .image-card {
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-portfolio:hover .image-card {
+    opacity: 0.3;
+}
+
+.card-portfolio:hover .middle {
+    opacity: 1;
+}
+
+.text button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    /* padding: 16px 32px; */
+    width: 150px !important;
+    border-radius: 10px;
+}
+
+.text button:hover {
+    background-color: #4CAF50;
+    color: #000;
+}
+
+
+
+.card-portfolio p {
+    font-family: "Arial Hebrew";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #041b50;
+
+}
+
+.card-portfolio a button {
+    background-color: #fff;
+    color: #041B50;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 110px;
+    margin-top: -10px;
+    border-radius: 50px;
+    border: 2px solid #041B50;
+}
+
+.card-portfolio a button:hover {
+    background-color: #ff8d35;
+    color: #fff;
+    border: 2px solid #ff8d35;
+}
+
+/* pricing */
+#container-pricing {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    isolation: isolate;
+}
+
+.title-pricing h1 {
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 50px;
+    color: #000;
+    font-family: Playfair Display, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.content-pricing {
+    width: 100%;
+    margin-top: 50px;
+    margin: 100px auto;
+    height: 200px;
+    border-bottom-right-radius: 5000px;
+    border-top-left-radius: 5000px;
+    background: #dbd9d960;
+
+}
+
+.card-pricing {
+    float: left;
+    margin-left: 130px;
+    width: 250px;
+    height: 400px;
+
+    isolation: isolate;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: -100px;
+    background: #fff;
+
+
+
+}
+
+.card-pricing hr {
+    width: 200px;
+    height: 0px;
+    background: transparent;
+    border: 2px solid #e0dddd;
+
+}
+
+.card-pricing .harga {
+    font-family: "Arial Hebrew";
+    font-weight: normal;
+    font-size: 70px;
+    text-align: left;
+    color: #000;
+
+}
+
+.card-pricing .on-scrol {
+    width: auto;
+    height: 180px;
+    text-align: left;
+    overflow: scroll;
+}
+
+
+
+.card-pricing .on-scrol p {
+    text-align: center;
+    line-height: 15px;
+
+}
+
+.card-pricing span {
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+
+.card-pricing a button {
+    text-align: center;
+    border: none;
+    width: 170px;
+    height: 45px;
+    background: #ff8d35;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-pricing a button:hover {
+    background: #ffa35c;
+}
+
+/* ========================== */
+/* CSS TESTIMONIALS */
+/* ========================== */
+
+/* * {
+    box-sizing: border-box
+} */
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #fff;
+    width: auto;
+    height: 250px;
+
+
+}
+
+.title-testimonial h4 {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+    margin-top: -40px;
+
+}
+
+.title-testimonial p {
+    font-family: Stark;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 50px;
+    margin-top: -30px;
+
+}
+
+
+/* Slides */
+.mySlides {
+    display: inline-block;
+    /* padding: 80px; */
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+.mySlides .content-1 {
+
+    width: 520px;
+    height: 250px;
+    background: #fff;
+    margin-right: 20px;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding-top: 15px;
+
+}
+
+.mySlides .content-2 {
+
+    width: 520px;
+    height: 250px;
+    background: transparent;
+
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding-top: 15px;
+
+}
+
+.dot-container {
+    text-align: center;
+    padding-top: 50px;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #041B50;
+}
+
+
+q {
+    font-style: italic;
+}
+
+.author {
+    color: cornflowerblue;
+}
+
+
+/* =============================== */
+
+
+/* Footer */
+#container-footer {
+    width: 90%;
+    margin: auto;
+    background: #fff;
+}
+
+.colom-content {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    text-align: left;
+    height: 200px;
+    margin-top: 20px;
+
+
+    /* border: 1px solid black; */
+}
+
+.colom-content {
+    list-style: none;
+    text-align: left;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.colom-content a {
+    list-style: none;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: #919191;
+
+}
+
+.colom-content a:hover {
+    color: #c9c9c9;
+}
+
+.colom-content .title a {
+    color: #041B50;
+
+    font-weight: bold;
+
+}
+
+#container-footer {
+    margin-top: 40px;
+}
+
+.content-footer p {
+    color: #c9c9c9;
+}
+
+.content-footer p a {
+    text-decoration: none;
+    color: #c9c9c9;
+}
+
+.content-footer p a:hover {
+    text-decoration: none;
+    color: #dbd9d9;
+}
+
+.content-footer {
+
+    display: inline-block;
+}
+
+.social-media {
+    float: right;
+    margin-right: 10px;
+}
+
+.social-media h4 {
+    margin-top: -0px;
+    margin-left: 40px;
+    color: #c9c9c9;
+}
+
+.social-media img {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+
+/* ========================== */
+/* CSS OUR WORK */
+/* ========================== */
+
+#container-jumbotroon {
+    width: 100%;
+    height: 300px;
+    background: #e4e6eb;
+    margin-top: -100px;
+    margin-bottom: 720px;
+
+}
+
+.container-content {
+    width: 90%;
+    margin: 100px auto 0;
+    height: 750px;
+
+
+}
+
+.container-content .card {
+    float: left;
+    margin-left: 15px;
+    width: 352px;
+    height: 750px;
+    margin-top: 65px;
+    border-radius: 10px;
+    background: #041b50;
+    text-align: center;
+
+
+}
+
+.card h3 {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 25px;
+    padding-left: 10px;
+    color: #f5f0f0;
+}
+
+.card .img-our-work {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #2d96ef;
+
+}
+
+.card h2 {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #f5f0f0;
+
+}
+
+
+
+.card p {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    padding-left: 5px;
+    color: #919191;
+}
+
+.card .deskripsi {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #f5f0f0;
+
+
+}
+
+.elips-social-media {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: 30px;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    border: 2px solid #2d96ef;
+
+}
+
+.elips-social-media img {
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+
+}
+
+
+.card .btn-our-work {
+    margin-top: 130px;
+
+}
+
+.card .btn-hireMe button {
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+    width: 115px;
+    height: 49px;
+    border-radius: 5px;
+    background: #e0dddd;
+    border: none;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #919191;
+
+
+}
+
+.card .btn-hireMe button:hover {
+    background: #fffdfd;
+}
+
+.card .btn-getCv button {
+    float: left;
+    width: 115px;
+    height: 49px;
+    border-radius: 5px;
+    border: none;
+    background: #ff8d35;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.card .btn-getCv button:hover {
+    background: #f8a566;
+}
+
+.btn-cta {
+    width: 400px;
+    display: inline-block;
+    height: 80px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 425px;
+
+
+}
+
+.btn-need-help a button {
+    width: 190px;
+    height: 50px;
+
+    border-radius: 5px;
+    background: #e0dddd;
+    margin-bottom: 100px !important;
+    float: left;
+    border: none;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #919191;
+    margin-right: 20px;
+
+
+}
+
+.btn-need-help button:hover {
+    background: #fffdfd;
+    border: 2px solid #fd6e00;
+}
+
+.btn-join-now a button {
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fd6e00;
+    float: left;
+    margin-bottom: 100px !important;
+
+    border: none;
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #f5f0f0;
+
+
+}
+
+.btn-join-now button:hover {
+    background: #f8a566;
+}

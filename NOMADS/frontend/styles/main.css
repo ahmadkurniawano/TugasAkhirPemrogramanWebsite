@@ -1,0 +1,262 @@
+body {
+  background-color: #fffff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+#navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -35px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+#btn-login {
+  background-color: #071C4D;
+  color: #ffffff;
+}
+
+#btn-login:hover {
+  background-color: #203d81;
+  color: #ffffff;
+}
+
+header {
+  color: #fff;
+  padding: 180px 0 165px;
+  background-image: url(../images/Haderbaner.jpg);
+  background-size: cover;
+  margin-top: -70px;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  color: #fff;
+  background-color: #FF9E53;
+}
+
+header .btn-get-started:hover {
+  color: #fff;
+  background-color: #f79143;
+}
+
+.section-stats {
+  margin-top: -50px;
+  margin-left: 15%;
+  background-color: #fff;
+}
+
+.section-stats .stats-detail {
+  padding-top: 20px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats h4 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  background-color: #051334;
+  min-height: 540px;
+  margin-top: -70px;
+}
+
+.section-popular h2 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  padding-top: 200px;
+}
+
+.section-popular p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel {
+  margin-top: -180px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #071C4D;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-counntry {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+}
+
+.section-popular-content .section-popular-travel .btn-travel-details {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .btn-travel-details:hover {
+  background-color: #ffc191;
+  color: #fff;
+}
+
+.partners-content {
+  margin-bottom: 50px;
+}
+
+.partners-content .text-content-partners {
+  font-family: 'Playfair Display', serif;
+}
+
+.partners-content .text-content-partners h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.partners-content .text-content-partners p {
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.section-testimonial-heading {
+  width: 1280px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+}
+
+.section-testimonial-heading .testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial-heading .testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: -380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 26px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  color: #6E6E6E;
+  font-size: 22px;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+  border: #000000;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #F2F2F2;
+  color: #7e7e7e;
+  border: #504B4B;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+  height: 45px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 100px !important;
+  text-decoration: none;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  border-color: #f5ab73;
+}
+
+.section-footer .content-company-footer .content-company {
+  float: left;
+  padding-left: 138px;
+}
+
+.section-footer .content-company-footer .content-company h3 {
+  color: #071C4D;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-footer .content-company-footer .content-company li a {
+  font-size: 18px;
+  color: #071C4D;
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+}
+
+.section-footer hr {
+  margin-bottom: 134px;
+}
+
+#copyright p {
+  text-align: center !important;
+  margin-bottom: 30px;
+  color: #6E6E6E;
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */

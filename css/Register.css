@@ -1,0 +1,110 @@
+.body {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin-left: 50px;
+    float: left;
+}
+
+.container-colom-3 {
+    width: 49%;
+    height: 650px;
+    margin: auto;
+    float: left;
+}
+
+.container-colom-4 {
+    width: 50%;
+    height: 650px;
+    margin: auto;
+    float: left;
+    
+}
+
+.kolom-img img {
+    width: 500px;
+    height: 470px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.signup h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #000;
+}
+
+.form-first input {
+    width: 230px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 30px;
+    display: inline-block;
+    float: left;
+    background: #fff;
+    border: 1px solid #6a6666;
+
+}
+
+.form-email input {
+    width: 510px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 30px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #6a6666;
+
+}
+
+
+.form-phone input {
+    width: 510px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 30px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #6a6666;
+
+}
+
+.form-pass input {
+    width: 510px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 30px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #6a6666;
+}
+
+.button-login a button {
+    width: 510px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+    background: #ff8d35;
+    border: 1px solid #6a6666;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #f3f1f1;
+
+
+}
+
+.button-login a button:hover {
+    background: #ffa159;
+}
